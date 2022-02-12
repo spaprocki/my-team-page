@@ -1,33 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0.5px black solid;
+}
+
 body {
     font-family: "Poppins", sans-serif;
   }
 
   ul {
-    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   li {
-    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+
   }
 
-  .welcome {
-    max-width: 800px;
-    margin: 0 auto;
-  }
 
-  .welcome-text {
-    margin-top: 30vh;
-    font-weight: 500;
-  }
-
-  .welcome-text p {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  .welcome-text h1 {
-    font-size: 1.5rem;
-  }
-
-  .welcome-text a {
-    color: #f7542e;}
+    h3 {
+      writing-mode: vertical-rl;
+text-orientation: mixed;
+border: black 1px solid;
+    }
