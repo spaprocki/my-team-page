@@ -1,0 +1,76 @@
+@media only screen and (min-width: 768px) {
+  #site-wrapper {
+    width: 64vw;
+  }
+
+  header {
+    margin-top: 10vw;
+    flex-direction: row;
+    height: 8.6vw;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+  }
+
+  #about {
+    margin-top: 0vw;
+    margin-left: 15vw;
+  }
+
+  h2 {
+    font-size: 1.25vw;
+  }
+
+  p {
+    font-size: 1.25vw;
+    margin-top: 0.6vw;
+    height: auto;
+  }
+
+  main {
+    margin-top: 6.6vw;
+  }
+
+  ul {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 1.875vw;
+  }
+
+  li:nth-child(2) {
+    margin-top: 6.875vw;
+  }
+
+  li:nth-child(5) {
+    margin-top: 6.875vw;
+  }
+
+  li:nth-child(4) {
+    margin-top: 0vw;
+  }
+
+  li:nth-child(6) {
+    margin-top: 0vw;
+  }
+
+  img {
+    width: 16.5vw;
+  }
+
+  figcaption {
+    margin-top: 1vw;
+    font-size: 1.25vw;
+  }
+
+  h3 {
+    margin-left: 0.7vw;
+    font-size: 0.8vw;
+  }
+
+  footer {
+    margin-top: 8vw;
+    margin-bottom: 1.67vw;
+    font-size: 0.9vw;
+  }
+}

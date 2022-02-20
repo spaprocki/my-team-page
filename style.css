@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
   background-color: #fafafa;
 }
 
@@ -16,14 +17,13 @@ body {
 }
 
 header {
+  margin-top: 18vw;
   display: flex;
   flex-direction: column;
-  margin-top: 18vw;
 }
 
 h1 {
   font-family: PT Serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 9.6vw;
   letter-spacing: -0.045em;
@@ -47,14 +47,14 @@ p {
 }
 
 main {
-  margin-top: 6.6vw;
+  margin-top: 10vw;
 }
 
 ul {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  row-gap: 1.875vw;
+  row-gap: 4.26vw;
   justify-content: space-between;
 }
 
@@ -64,15 +64,15 @@ li {
 }
 
 li:nth-child(2) {
-  margin-top: 10vh;
+  margin-top: 12.8vw;
 }
 
 li:nth-child(4) {
-  margin-top: 10vh;
+  margin-top: 12.8vw;
 }
 
 li:nth-child(6) {
-  margin-top: 10vh;
+  margin-top: 12.8vw;
 }
 
 figure {
@@ -87,8 +87,6 @@ img {
 
 figcaption {
   margin-top: 2.7vw;
-  font-family: Poppins;
-  font-style: normal;
   font-weight: 600;
   font-size: 3.7vw;
 }
@@ -99,7 +97,6 @@ h3 {
   margin-left: 1.7vw;
   text-transform: uppercase;
   font-family: PT Serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 2.6vw;
 }
@@ -107,96 +104,9 @@ h3 {
 footer {
   font-family: 'Montserrat', sans-serif;
   color: #bdbdbd;
+  font-weight: 500;
+  font-size: 3.7vw;
   margin-top: 36vw;
   margin-bottom: 6.4vw;
   text-align: center;
-  font-size: 3.7vw;
-}
-
-@media only screen and (min-width: 768px) {
-
-
-
-#site-wrapper {
-  width: 64vw;
-  height: 102vw;
-}
-
-header {
-  margin-top: 10vw;
-  flex-direction: row;
-  margin-top: 7.6vw;
-  height: 8.6vw;
-}
-
-h1 {
-  font-size: 2.5vw; /*5.1vh;*/
-}
-
-#about {
-  margin-top: 0vw;
-  margin-left: 15vw;
-}
-
-h2 {
-  font-size: 1.25vw;
-  text-transform: uppercase;
-}
-
-p {
-  font-size: 1.25vw;
-  margin-top: 0.6vw;
-  height: auto;
-}
-
-main {
-  margin-top: 6.6vw;
-}
-
-ul {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  row-gap: 1.875vw;
-  justify-content: space-between;
-}
-
-li:nth-child(2) {
-  margin-top: 10vh;
-}
-
-li:nth-child(5) {
-  margin-top: 10vh;
-}
-
-li:nth-child(4) {
-  margin-top: 0vh;
-}
-
-li:nth-child(6) {
-  margin-top: 0vh;
-}
-
-img {
-  width: 16.5vw;
-}
-
-figcaption {
-  margin-top: 1vw;
-  font-size: 1.25vw;
-}
-
-h3 {
-  margin-left: 0.7vw;
-  font-size: 0.8vw;
-}
-
-footer {
-  font-family: 'Montserrat', sans-serif;
-  color: #bdbdbd;
-  margin-top: 8vw;
-  margin-bottom: 1vw;
-  text-align: center;
-  font-size: 0.9vw;
-}
 }
