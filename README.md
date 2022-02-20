@@ -38,7 +38,7 @@
 
 ![screenshot](https://spaprocki.github.io/hosted-assets/my-team-page-screenshot.PNG)
 
-To coplete this challenge, I've used the same method, as for the completion of the previous one - I've bound elements' sizes with viewport width. Respective sizes were represented in .css files in vw units.
+To complete this challenge, I've used the same method, as for the completion of the previous one - I've bound elements' sizes with viewport width. Respective sizes were represented in .css files in vw units.
 
 Site demo can be seen at: (https://papi-my-team-page.netlify.app/)
 
