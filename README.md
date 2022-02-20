@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{papi-my-team-page.netlify.app}">
+    <a href="https://papi-my-team-page.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/spaprocki/my-team-page}">
+    <a href="https://github.com/spaprocki/my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -66,4 +66,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@spaprocki](https://{github.com/spaprocki})
+- GitHub [@spaprocki](https://github.com/spaprocki)
